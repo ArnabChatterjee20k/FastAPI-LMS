@@ -10,6 +10,9 @@ packages = [{include = "fastapi_lms"}]
 python = "^3.10"
 uvicorn = "^0.21.1"
 fastapi = "^0.95.0"
+sqlalchemy = "^2.0.8"
+sqlalchemy-utils = "^0.40.0"
+alembic = "^1.10.2"
 
 
 [build-system]
